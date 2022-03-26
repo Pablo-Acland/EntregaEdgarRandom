@@ -1,22 +1,22 @@
-package co.com.sofka.mentoring35;
+package co.com.sofka.mentoring35.DTO;
 
-public class RequestNumbersDTO {
-    private int number1;
-    private int number2;
+public class RequestIntegerDTO {
+    private int num1;
+    private int num2;
 
-    public int getNumber1() {
-        return number1;
+    public int getNum1() {
+        return num1;
     }
 
-    public int getNumber2() {
-        return number2;
+    public int getNum2() {
+        return num2;
     }
 
-    public void setNumber2(int number2) {
-        this.number2 = number2;
+    public void setNum2(int num2) {
+        this.num2 = num2;
     }
 
-    public void setNumber1(int number1) {
-        this.number1 = number1;
+    public void setNum1(int num1) {
+        this.num1 = num1;
     }
 }
